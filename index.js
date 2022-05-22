@@ -7,14 +7,37 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the title of the project?',
-    }
-
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is your project about?',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'How do you install your project?',
+    },
+    {
+        type: 'input',
+        name: 'deployedLink',
+        message: 'What is the link to your deployed project?',
+    },
+   
 
 ]
 
 // TODO: Create a function to write README file
 function createReadme(answers) {
-    fs.writeFileSync('./README.md', `# ${answers.title}`)
+    fs.writeFileSync('./README.md', `
+    # ${answers.title}
+    ## Description
+    ${answers.description}
+    ## Installation Instructions
+    ${answers.installation}
+    ## Deployed Link
+    [deployed link](${answers.deployedLink})
+    `)
 }
 
 inq
