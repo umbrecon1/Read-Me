@@ -1,7 +1,6 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,18 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "fs": "^0.0.1-security",
-    "inquirer": "^6.5.2"
-  }
+    "inquirer": "^6.5.2",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbrecon1/Read-Me.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/umbrecon1/Read-Me/issues"
+  },
+  "homepage": "https://github.com/umbrecon1/Read-Me#readme",
+  "description": ""
 }
