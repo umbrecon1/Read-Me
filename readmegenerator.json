@@ -1,0 +1,12 @@
+{
+	"project": "Read Me Generator",
+	"description": "This assignment was to create a read me in the terminal using node.",
+	"preview": "",
+	"install": "npm i",
+	"usage": "To create Read Mes with ease",
+	"license": [],
+	"contribute": "",
+	"test": "Test it in the integrated terminal using \"node index\"",
+	"github": "Umbrecon",
+	"email": "umbrecon@icloud.com"
+}

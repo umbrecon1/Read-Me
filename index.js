@@ -105,7 +105,7 @@ ${license}
 ## Installation
 - ${data.install}
 
-## Usage>
+## Usage
 - ${data.usage}
 
 ## Contributing
@@ -114,9 +114,7 @@ ${license}
 ## Test Instructions
 - ${data.test}
 
-## Questions?
-
-##Contact Me:
+## Contact Me:
 - Github Username: ${data.github}<br/>
 - Github Link: https://github.com/${data.github}<br/> 
 - Email: ${data.email}<br/>
